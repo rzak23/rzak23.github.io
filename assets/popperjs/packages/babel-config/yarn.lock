@@ -50,7 +50,7 @@ babel-helper-define-map@^6.24.1:
     babel-helper-function-name "^6.24.1"
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
-    lodash "^4.2.0"
+    lodash "^4.17.21"
 
 babel-helper-explode-assignable-expression@^6.24.1:
   version "6.24.1"
@@ -490,7 +490,7 @@ babel-traverse@^6.24.1, babel-traverse@^6.25.0:
     babel-runtime "^6.22.0"
     babel-types "^6.25.0"
     babylon "^6.17.2"
-    debug "^2.2.0"
+    debug "^2.6.9"
     globals "^9.0.0"
     invariant "^2.2.0"
     lodash "^4.2.0"
@@ -533,9 +533,9 @@ core-js@^2.4.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.0.tgz#569c050918be6486b3837552028ae0466b717086"
 
-debug@^2.2.0:
-  version "2.6.8"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
+debug@^2.6.9:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
     ms "2.0.0"
 
@@ -575,9 +575,9 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
 
-lodash@^4.2.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 loose-envify@^1.0.0:
   version "1.3.1"
