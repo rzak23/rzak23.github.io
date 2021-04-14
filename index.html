@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,56 +9,188 @@
 	<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="assets/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/@fortawesome/fontawesome-free/css/solid.min.css">
+	<link rel="stylesheet" href="assets/@fortawesome/fontawesome-free/css/brands.min.css">
 	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-		  <ul class="navbar-nav">
-			<li class="nav-item active">
-			  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#">Project</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#">History</a>
-			</li>
-		  </ul>
-		</div>
-	</nav>
-
-	<div class="container-fluid">
-		<div class="row mt-5">
-			<div class="col-lg-6 col-md-6 col-12">
-				<img src="img/dp.webp" class="img-fluid img-thumbnail" alt="me">
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<li class="nav-item active">
+				  <a class="nav-link scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link scroll" href="#project">Project</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link scroll" href="#">History</a>
+				</li>
+			  </ul>
 			</div>
-			<div class="col-lg-6 col-md-6 col-12">
-				<div class="text-center">
-					<h1>Welcome to My Page</h1>
-					<p>My name is Reza Akbar Hidayat</p>
-					<p>I'm from Madura Island and work on Denpasar as Programmer and IT Support</p>
-					<br>
-					Follow me:
-					<div>
-						<a href="https://github.com/rzak23" target="_blank">
-							<img src="img/social/github.webp" class="img-fluid" alt="github">
-						</a>
-						<a href="https://twitter.com/rzak_23" target="_blank">
-							<img src="img/social/twitter.webp" class="img-fluid" alt="twitter">
-						</a>
-						<a href="https://www.instagram.com/reza_dev23/" target="_blank">
-							<img src="img/social/instagram.webp" class="img-fluid" alt="instagram">
-						</a>
+		</nav>
+	</header>
+	<br><br>
+	<div class="container">
+		<div id="home">
+			<div class="row mt-5">
+				<div class="col-lg-6 col-md-6 col-12">
+					<img src="img/dp.webp" class="img-fluid img-thumbnail" width="75%" alt="me">
+				</div>
+				<div class="col-lg-6 col-md-6 col-12">
+					<div class="text-center">
+						<h1>Welcome to My Page</h1>
+						<p>My name is Reza Akbar Hidayat</p>
+						<p>I'm from Madura Island and work on Denpasar as Programmer and IT Support</p>
+						<br>
+						Follow me:
+						<div>
+							<a href="https://github.com/rzak23" target="_blank">
+								<img src="img/social/github.webp" class="img-fluid" alt="github">
+							</a>
+							<a href="https://twitter.com/rzak_23" target="_blank">
+								<img src="img/social/twitter.webp" class="img-fluid" alt="twitter">
+							</a>
+							<a href="https://www.instagram.com/reza_dev23/" target="_blank">
+								<img src="img/social/instagram.webp" class="img-fluid" alt="instagram">
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- End Home -->
+		<!-- Start Project -->
+		<div id="project" class="mt-3 mb-5">
+			<div class="row">
+				<div class="col-12 text-center mb-5">
+					<h4>My List Project</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-12 text-center">
+					<img src="img/gallery/pinmu.jpg" width="70%" alt="">
+					<p><strong>PINmu</strong></p>
+					<a href="https://pinmu.my.id" target="_blank" class="btn btn-primary">
+						<span>View</span>
+						<i class="fab fa-edge"></i>
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=my.id.pinmu.m" target="_blank" class="btn btn-success">
+						<span>Download</span>
+						<i class="fab fa-google-play"></i>
+					</a>
+				</div>
+				<div class="col-md-3 col-12 text-center">
+					<img src="img/gallery/ende.png" width="70%" alt="">
+					<p>
+						<strong>Ende</strong>
+						<small>Version : 1.0.0</small>
+					</p>
+					<a href="https://github.com/rzak23/ende/releases/download/v1.0.0/Ende.Setup.1.0.0.exe" class="btn btn-primary">
+						<span>Download</span>
+						<i class="fas fa-download"></i>
+					</a>
+					<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#checksum">
+						<span>Checksum</span>
+						<i class="fas fa-key"></i>
+					</button>
+				</div>
+				<div class="col-md-3 col-12 text-center">
+					<img src="img/gallery/countChar.png" width="70%" alt="">
+					<p>
+						<strong>Count Char</strong>
+						<small>Version : 1.0.6</small>
+					</p>
+					<a href="https://github.com/rzak23/countChar/releases/download/v.1.0.6/countChar.Setup.1.0.6.exe" class="btn btn-primary">
+						<span>Download</span>
+						<i class="fas fa-download"></i>
+					</a>
+					<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#checksum">
+						<span>Checksum</span>
+						<i class="fas fa-key"></i>
+					</button>				
+				</div>
+				<div class="col-md-3 col-12 text-center">
+					<img src="img/gallery/key-generator.png" width="70%" alt="">
+					<p>
+						<strong>Key Generator</strong>
+						<small>Version : 1.0.0</small>
+					</p>
+					<a href="https://github.com/rzak23/key-generator/releases/download/v1.0.0/key-generator.Setup.1.0.0.exe" class="btn btn-primary">
+						<span>Download</span>
+						<i class="fas fa-download"></i>
+					</a>
+					<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#checksum">
+						<span>Checksum</span>
+						<i class="fas fa-key"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- Start Project -->
 	</div>
+	<!-- Modal Checksum -->
+	<div class="modal fade" role="dialog" id="checksum">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					Data Checksum
+				</div>
+				<div class="modal-body">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th class="text-center">App</th>
+								<th class="text-center">MD5</th>
+								<th class="text-center">SHA256</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="text-break">Ende</td>
+								<td class="text-break">0df85a1bc721b55f9c66dedfe382b081</td>
+								<td class="text-break">9ac2b4106de4b92fbe52bfe7a056dff308f35cd52d47e175dbb1932dd77c84ba</td>
+							</tr>
+							<tr>
+								<td class="text-break">CountChar</td>
+								<td class="text-break">45342ba3b914fe6b45c3b5b63bc93637</td>
+								<td class="text-break">e11c857c333a68b290a26a19c9d66e19db01beec7e98c144249fb970299bb371</td>
+							</tr>
+							<tr>
+								<td class="text-break">Key-Generator</td>
+								<td class="text-break">1d5404b0b93018522a80d9064330a87e</td>
+								<td class="text-break">6579fef4946f147fc616664da87df25162098c8109d59e128875ddff81f1c3bf</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="modal-footer">
+					<button type="button" data-dismiss="modal" class="btn btn-danger">
+						<span>Tutup</span>
+						<i class="fas fa-times"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Checksum -->
 	<script src="assets/jquery/dist/jquery.min.js"></script>
 	<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script>
+		$('.scroll').on('click',function(e){
+			var href = $(this).attr('href');
+			var element = $(href);
+			$('html, body').animate({
+				scrollTop: element.offset().top
+			});
+			e.preventDefault();
+		})
+	</script>
 </body>
 </html>
