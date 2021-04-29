@@ -249,42 +249,82 @@
 					Data Checksum
 				</div>
 				<div class="modal-body">
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th class="text-center">App</th>
-								<th class="text-center">MD5</th>
-								<th class="text-center">SHA2</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-break">Ende</td>
-								<td class="text-break">4062de466627b718b31679e1633b63c4</td>
-								<td class="text-break">66d4af9aaa47cdfb4253ccc4ff8f25be90905d4a0a8f06a4abe9f4301fe399f5</td>
-							</tr>
-							<tr>
-								<td class="text-break">CountChar (64-bit)</td>
-								<td class="text-break">ce9c07d9e5be557bd7d79d8aa3ddf4a8</td>
-								<td class="text-break">c4f441c3de8f4e0108c4bd47d8e76b6fa52ae742745d61b3c5b029d5db5b2ff7</td>
-							</tr>
-							<tr>
-								<td class="text-break">CountChar (32-bit)</td>
-								<td class="text-break">5b6f93e5871cfe32e689b86c19c4681a</td>
-								<td class="text-break">acaf726540d978a3919e8c713a70295f02e7d01ece41b2561b05e849f66f2e59</td>
-							</tr>
-							<tr>
-								<td class="text-break">Key-Generator</td>
-								<td class="text-break">d1770e8795893788f53c7cfbae70bb06</td>
-								<td class="text-break">eb39d32d70569837e953b4dd52b046c012740efb32a66ed6a92e57ae8d78f618</td>
-							</tr>
-							<tr>
-								<td class="text-break">Clocktime</td>
-								<td class="text-break">43057aafc31ee937bdcace57c675d295</td>
-								<td class="text-break">3d46858dd309c1d2e82538ef93d73547be6e1a9ffe3e092c1b6745be1696e2ff</td>
-							</tr>
-						</tbody>
-					</table>
+					<div class="card card-body">
+						<a href="#ende" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="ende">
+							Ende Hash File
+						</a>
+						<div class="collapse" id="ende">
+							<table class="table table-bordered">
+								<tr>
+									<td class="text-break">MD5</td>
+									<td class="text-break">4062de466627b718b31679e1633b63c4</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2</td>
+									<td class="text-break">66d4af9aaa47cdfb4253ccc4ff8f25be90905d4a0a8f06a4abe9f4301fe399f5</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="card card-body">
+						<a href="#count-char" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="count-char">
+							CountChar Hash File
+						</a>
+						<div class="collapse" id="count-char">
+							<table class="table table-bordered">
+								<tr>
+									<td class="text-break">MD5 (32-bit)</td>
+									<td class="text-break">5b6f93e5871cfe32e689b86c19c4681a</td>
+								</tr>
+								<tr>
+									<td class="text-break">MD5 (64-bit)</td>
+									<td class="text-break">ce9c07d9e5be557bd7d79d8aa3ddf4a8</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2 (32-bit)</td>
+									<td class="text-break">acaf726540d978a3919e8c713a70295f02e7d01ece41b2561b05e849f66f2e59</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2 (64-bit)</td>
+									<td class="text-break">c4f441c3de8f4e0108c4bd47d8e76b6fa52ae742745d61b3c5b029d5db5b2ff7</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="card card-body">
+						<a href="#key-generator" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="key-generator">
+							Key Generator Hash File
+						</a>
+						<div class="collapse" id="key-generator">
+							<table class="table table-bordered">
+								<tr>
+									<td class="text-break">MD5</td>
+									<td class="text-break">d1770e8795893788f53c7cfbae70bb06</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2</td>
+									<td class="text-break">eb39d32d70569837e953b4dd52b046c012740efb32a66ed6a92e57ae8d78f618</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="card card-body">
+						<a href="#clocktime" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="clocktime">
+							ClockTime Hash File
+						</a>
+						<div class="collapse" id="clocktime">
+							<table class="table table-bordered">
+								<tr>
+									<td class="text-break">MD5</td>
+									<td class="text-break">43057aafc31ee937bdcace57c675d295</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2</td>
+									<td class="text-break">3d46858dd309c1d2e82538ef93d73547be6e1a9ffe3e092c1b6745be1696e2ff</td>
+								</tr>
+							</table>
+						</div>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" data-dismiss="modal" class="btn btn-danger">
