@@ -167,10 +167,22 @@
 						<br>
 						<small>App Version : 1.1.3</small>
 					</p>
-					<a href="https://github.com/rzak23/key-generator/releases/download/v1.1.3/key-generator.Setup.1.1.3.exe" class="btn btn-primary">
-						<span>Download</span>
-						<i class="fas fa-download"></i>
-					</a>
+					<div class="btn-group" role="group">
+						<button id="btnCountGroup" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span>Download</span>
+							<i class="fas fa-download"></i>
+						</button>
+						<div class="dropdown-menu" aria-labelledby="btnCountGroup">
+							<a href="https://github.com/rzak23/key-generator/releases/download/v1.1.3/key-generator.Setup.1.1.3.exe" class="dropdown-item">
+								<span>Download for</span>
+								<i class="fab fa-windows"></i>
+							</a>
+							<a href="https://play.google.com/store/apps/details?id=com.restudio.key_generator" class="dropdown-item">
+								<span>Download for</span>
+								<i class="fab fa-google-play"></i>
+							</a>
+						</div>
+					</div>
 					<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#checksum">
 						<span>Checksum</span>
 						<i class="fas fa-key"></i>
