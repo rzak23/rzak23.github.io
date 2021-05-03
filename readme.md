@@ -10,5 +10,5 @@
 
 # My Stats
 
-![rzak23 stats](https://github-readme-stats.vercel.app/api?username=rzak23&show_icons=true&theme=radical)
+![rzak23 stats](https://github-readme-stats.vercel.app/api?username=rzak23&show_icons=true&theme=radical&count_private=true)
 ![rzak23 language](https://github-readme-stats.vercel.app/api/top-langs/?username=rzak23&layout=compact&theme=radical)
