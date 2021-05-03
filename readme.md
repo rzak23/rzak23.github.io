@@ -1,6 +1,6 @@
 # My PortFolio Website
 
-# Technologiesw & Tools
+# Technologies & Tools
 ![](https://img.shields.io/badge/style-bootstrap-blue?style=plastic&logo=bootstrap)
 ![](https://img.shields.io/badge/js-javascript-blue?style=plastic&logo=jquery)
 ![](https://img.shields.io/badge/os-windows-blue?style=plastic&logo=windows)
@@ -11,4 +11,4 @@
 # My Stats
 
 ![rzak23 stats](https://github-readme-stats.vercel.app/api?username=rzak23&show_icons=true&theme=radical&count_private=true)
-![rzak23 language](https://github-readme-stats.vercel.app/api/top-langs/?username=rzak23&layout=default&theme=radical)
+![rzak23 language uses](https://github-readme-stats.vercel.app/api/top-langs/?username=rzak23&layout=default&theme=radical)
