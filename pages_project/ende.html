@@ -19,17 +19,19 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navigation">
-			<a class="navbar-brand" href="#">Reza Akbar Hidayat</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-			  <ul class="navbar-nav mr-auto"></ul>
-			  <ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-			  </ul>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Reza Akbar Hidayat</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav me-auto"></ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -43,7 +45,7 @@
                     <div class="col-lg-6 col-md-6 col-12 text-center">
                         <img src="../img/gallery/ende.png" alt="">
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 mb-3 product-detail">
+                    <div class="col-lg-6 col-md-6 col-12 mb-3 product-detail mb-2">
                         <strong>Ende</strong>
                         <p>Aplikasi untuk mengecek hash sebuah file dan juga dilengkapi dengan fitur enkripsi dan deenkripsi text</p>
                         <p>
@@ -60,15 +62,17 @@
 								</li>
 							</ul>
 						</p>
-                        <a href="https://github.com/rzak23/ende/releases/download/v1.4.7/Ende.Setup.1.4.7.exe" class="btn btn-success">
-                            <span>Download</span>
-                            <small>Version 1.4.7</small>
-                            <i class="fas fa-download"></i>
-                        </a>
-                        <button type="button" class="btn btn-warning" id="btn-show-other">
-                            <span>Other Version</span>
-                            <i class="fas fa-tasks"></i>
-                        </button>
+                        <div class="mb-3">
+							<a href="https://github.com/rzak23/ende/releases/download/v1.4.7/Ende.Setup.1.4.7.exe" class="btn btn-success">
+								<span>Download</span>
+								<small>Version 1.4.7</small>
+								<i class="fas fa-download"></i>
+							</a>
+							<button type="button" class="btn btn-warning" id="btn-show-other">
+								<span>Other Version</span>
+								<i class="fas fa-tasks"></i>
+							</button>
+						</div>
                     </div>
                 </div>
             <!-- </div> -->
@@ -158,7 +162,7 @@
 		</div>
 	</div>
 	<!-- Modal Checksum -->
-	<script src="../assets/popperjs/dist/umd/popper.min.js"></script>
+	<script src="../assets/@popperjs/core/dist/umd/popper.min.js"></script>
 	<script src="../assets/jquery/dist/jquery.min.js"></script>
 	<script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script>
