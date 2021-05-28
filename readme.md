@@ -12,3 +12,4 @@
 
 ![rzak23 stats](https://github-readme-stats.vercel.app/api?username=rzak23&show_icons=true&theme=radical&count_private=true)
 ![rzak23 language uses](https://github-readme-stats.vercel.app/api/top-langs/?username=rzak23&layout=default&theme=radical)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=rzak23&theme=tokyonight_duo&background=000000)](https://git.io/streak-stats)
