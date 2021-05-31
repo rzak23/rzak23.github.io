@@ -125,12 +125,31 @@
 					<p>
 						<strong>Ende</strong>
 						<br>
-						<small>App Version : 1.4.7</small>
+						<small>App Version : 1.5.8</small>
 					</p>
-					<a href="https://github.com/rzak23/ende/releases/download/v1.4.7/Ende.Setup.1.4.7.exe" class="btn btn-primary">
-						<span>Download</span>
-						<i class="fas fa-download"></i>
-					</a>
+					<div class="btn-group" role="group">
+						<button id="btnCountGroup" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span>Download</span>
+							<i class="fas fa-download"></i>
+						</button>
+						<div class="dropdown-menu" aria-labelledby="btnCountGroup">
+							<a href="https://github.com/rzak23/ende/releases/download/v1.5.8/Ende.Setup.1.5.8x86.exe" class="dropdown-item">
+								<span>Download for </span>
+								<i class="fab fa-windows"></i>
+								<span>32-bit</span>
+							</a>
+							<a href="https://github.com/rzak23/ende/releases/download/v1.5.8/Ende.Setup.1.5.8x64.exe" class="dropdown-item">
+								<span>Download for </span>
+								<i class="fab fa-windows"></i>
+								<span>64-bit</span>
+							</a>
+							<a href="https://github.com/rzak23/ende/releases/download/v1.5.8/Ende.Setup.1.5.8arm64.exe" class="dropdown-item">
+								<span>Download for </span>
+								<i class="fab fa-windows"></i>
+								<span>ARM64</span>
+							</a>
+						</div>
+					</div>
 					<a href="pages_project/ende.html" class="btn btn-success">
 						<span>Detail</span>
 						<i class="fas fa-book"></i>
@@ -228,7 +247,7 @@
 					<p>
 						<strong>FScoreX</strong>
 						<br>
-						<small>App Version : 1.0.0</small>
+						<small>App Version : 1.0.2</small>
 					</p>
 					<div class="btn-group" role="group">
 						<button id="btnCountGroup" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -236,18 +255,22 @@
 							<i class="fas fa-download"></i>
 						</button>
 						<div class="dropdown-menu" aria-labelledby="btnCountGroup">
-							<a href="https://github.com/rzak23/fscorex/releases/download/v1.0.0/fscorex.Setup.1.0.0x32.exe" class="dropdown-item">
+							<a href="https://github.com/rzak23/fscorex/releases/download/v1.0.2/fscorex.Setup.1.0.2x86.exe" class="dropdown-item">
 								<span>Download for </span>
 								<i class="fab fa-windows"></i>
 								<span>32-bit</span>
 							</a>
-							<a href="https://github.com/rzak23/fscorex/releases/download/v1.0.0/fscorex.Setup.1.0.0x64.exe" class="dropdown-item">
+							<a href="https://github.com/rzak23/fscorex/releases/download/v1.0.2/fscorex.Setup.1.0.2x64.exe" class="dropdown-item">
 								<span>Download for </span>
 								<i class="fab fa-windows"></i>
 								<span>64-bit</span>
 							</a>
 						</div>
 					</div>
+					<a href="pages_project/fscorex.html" class="btn btn-success">
+						<span>Detail</span>
+						<i class="fas fa-book"></i>
+					</a>
 					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#checksum">
 						<span>Checksum</span>
 						<i class="fas fa-key"></i>
@@ -318,12 +341,28 @@
 						<div class="collapse" id="ende">
 							<table class="table table-bordered">
 								<tr>
-									<td class="text-break">MD5</td>
-									<td class="text-break">942b92be51ccbf9436e64be0f9918428</td>
+									<td class="text-break">MD5 (32-bit)</td>
+									<td class="text-break">1a250f14576df217c5d4da002276e11c</td>
 								</tr>
 								<tr>
-									<td class="text-break">SHA-2</td>
-									<td class="text-break">fadb73284cd4ec799fd0349de70f13adbab6218a5201a8397d6a902729568a9a</td>
+									<td class="text-break">MD5 (64-bit)</td>
+									<td class="text-break">cd43d9e5cb24cddbb8bc08d7ef6fad2b</td>
+								</tr>
+								<tr>
+									<td class="text-break">MD5 (ARM-64)</td>
+									<td class="text-break">98a58cde225a7b2088aaf4dc15990a43</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2 (32-bit)</td>
+									<td class="text-break">fd563ff55aa31b7448cced53fc0f0e804a3b76c8739eb849c6ffad903c5938f0</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2 (64-bit)</td>
+									<td class="text-break">a59a449e95e64079db5b5b40cc4ec3d131fcf941d945a3b66060b2ecb3869347</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2 (ARM-64)</td>
+									<td class="text-break">771d9471d597d03702267eb5e57baa24174bc9b5dcf751836405ee555f0eff53</td>
 								</tr>
 							</table>
 						</div>
@@ -395,17 +434,17 @@
 							<table class="table table-bordered">
 								<tr>
 									<td class="text-break">MD5 (32-bit)</td>
-									<td class="text-break">5de15a2e6a80f848e052dcc988c2ea75</td>
+									<td class="text-break">357ddcee013104e4d16d43bff270e934</td>
 								</tr>
 								<tr>
 									<td class="text-break">MD5 (64-bit)</td>
-									<td class="text-break">8f841b94ed608170918151717169e28b</td>
+									<td class="text-break">45fa3bbf88b58b17b576cfad3335da2d</td>
 								</tr>
 								<tr>
 									<td class="text-break">SHA-2 (32-bit)</td>
-									<td class="text-break">5126977bfdbce08cfe516844d0d5803470b6f4d501bc31422dc5773cbbb24203</td>
+									<td class="text-break">fb08a34edfe8dc395831dbc363bd9fcd0703bcd7a529ade73860da2b38eb9881</td>
 									<td class="text-break">SHA-2 (64-bit)</td>
-									<td class="text-break">e87b346eed75a98b49728d15a33d33debe3a36143ba0e0fef225b8d2d657aa8e</td>
+									<td class="text-break">7ffcfe8f00742a364201bbf253d3e219bd006cacf3068ff00210a2d8ad384812</td>
 								</tr>
 							</table>
 						</div>
