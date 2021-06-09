@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rzak23 | Personal Page</title>
+	<link rel="shortcut icon" href="../img/social/github.webp" type="image/x-icon">
+	<link rel="stylesheet" href="../assets/bootstrap/dist/css/bootstrap.min.css">
+    <!-- FontStyle -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../assets/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+	<link rel="stylesheet" href="../assets/@fortawesome/fontawesome-free/css/solid.min.css">
+	<link rel="stylesheet" href="../assets/@fortawesome/fontawesome-free/css/brands.min.css">
+	<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navigation">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Reza Akbar Hidayat</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav me-auto"></ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<br><br>
+	<div class="container">
+        <!-- Margin Top -->
+		<div class="mt-5">
+            <!-- Card -->
+			<!-- <div class="card"> -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 text-center d-none d-sm-block">
+                        <img src="../img/gallery/key-generator.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mb-3 product-detail mb-2">
+                        <strong>Key Generator</strong>
+						<small>Release Version 1.3.9 (09-06-2021)</small>
+                        <p>Key Generator</p>
+                        <p>
+							Apa yang baru :
+							<ul class="list-group" style="color: black;">
+								<li class="list-group-item">
+									Support Light &amp; Dark Theme
+								</li>
+                                <li class="list-group-item">
+                                    Update Minor System
+                                </li>
+                                <li class="list-group-item">
+                                    Fixed CVE-2021-33502
+                                </li>
+							</ul>
+						</p>
+                        <div class="mb-3">
+							<a href="https://github.com/rzak23/key-generator/releases/download/v1.3.9/key-generator.Setup.1.3.9.exe" class="btn btn-success">
+								<span>Download</span>
+								<small>Version 1.3.9</small>
+								<i class="fas fa-download"></i>
+							</a>
+							<button type="button" class="btn btn-warning" id="btn-show-other">
+								<span>Other Version</span>
+								<i class="fas fa-tasks"></i>
+							</button>
+						</div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <div id="other" class="mt-3 mb-5">
+                <div class="card">
+                    <div class="card-header">
+                        <button type="button" class="btn btn-danger" id="btn-hide-other">
+                            <i class="fas fa-eye-slash"></i>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Version</th>
+                                    <th class="text-center">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+								<tr>
+									<td>1.2.7</td>
+									<td class="text-center">
+										<a href="https://github.com/rzak23/key-generator/releases/download/v1.2.7/key-generator.Setup.1.2.7.exe">Download</a>
+									</td>
+								</tr>
+								<tr>
+									<td>1.2.6</td>
+									<td class="text-center">
+										<a href="https://github.com/rzak23/key-generator/releases/download/v1.2.6/key-generator.Setup.1.2.6.exe">Download</a>
+									</td>
+								</tr>
+                                <tr>
+                                    <td>1.2.4</td>
+                                    <td class="text-center">
+                                        <a href="https://github.com/rzak23/key-generator/releases/download/v1.2.4/key-generator.Setup.1.2.4.exe">Download</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1.0.0</td>
+                                    <td class="text-center">
+                                        <a href="https://github.com/rzak23/key-generator/releases/download/v1.0.0/key-generator.Setup.1.0.0.exe">Download</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+		</div>
+        <!-- Margin Top -->
+		<br>
+		<footer>
+			<nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-navigation">
+				copyright &copy; <span id="copYear"></span>&nbsp;|
+				Design by&nbsp;<strong>rzak23</strong>
+			</nav>
+		</footer>
+	</div>
+	<!-- Modal Checksum -->
+	<div class="modal fade" role="dialog" id="checksum">
+		<div class="modal-dialog modal-dialog-scrollable modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					Data Checksum
+				</div>
+				<div class="modal-body">
+					<div class="card card-body">
+						<a href="#ende" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="ende">
+							Ende Hash File
+						</a>
+						<div class="collapse" id="ende">
+							<table class="table table-bordered">
+								<tr>
+									<td class="text-break">MD5</td>
+									<td class="text-break">cc6cd8b66682c458c9610b3ce6e3f3ff</td>
+								</tr>
+								<tr>
+									<td class="text-break">SHA-2</td>
+									<td class="text-break">6d26fcf121481b0f2063fbb1f24e6c9ab0166f8bd72277c78b7422fa82a3d33c</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" data-dismiss="modal" class="btn btn-danger">
+						<span>Tutup</span>
+						<i class="fas fa-times"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Checksum -->
+	<script src="../assets/@popperjs/core/dist/umd/popper.min.js"></script>
+	<script src="../assets/jquery/dist/jquery.min.js"></script>
+	<script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script>
+		var date = new Date();
+		const year = date.getFullYear();
+		document.getElementById('copYear').innerHTML = year;
+
+        $(document).ready(function(){
+            $('#other').hide();
+
+            // show
+            $('#btn-show-other').on('click',function(){
+                $('#other').show(500);
+            })
+            // hide
+            $('#btn-hide-other').on('click',function(){
+                $('#other').hide(500);
+            })
+        })
+	</script>
+</body>
+</html>
