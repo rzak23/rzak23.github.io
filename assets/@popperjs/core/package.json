@@ -1,29 +1,29 @@
 {
-  "_from": "@popperjs/core",
-  "_id": "@popperjs/core@2.9.2",
+  "_from": "@popperjs/core@2.10.2",
+  "_id": "@popperjs/core@2.10.2",
   "_inBundle": false,
-  "_integrity": "sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==",
+  "_integrity": "sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==",
   "_location": "/@popperjs/core",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "@popperjs/core",
+    "raw": "@popperjs/core@2.10.2",
     "name": "@popperjs/core",
     "escapedName": "@popperjs%2fcore",
     "scope": "@popperjs",
-    "rawSpec": "",
+    "rawSpec": "2.10.2",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "2.10.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.9.2.tgz",
-  "_shasum": "adea7b6953cbb34651766b0548468e743c6a2353",
-  "_spec": "@popperjs/core",
-  "_where": "E:\\develope\\rzak23.github.io",
+  "_resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.10.2.tgz",
+  "_shasum": "0798c03351f0dea1a5a4cabddf26a55a7cbee590",
+  "_spec": "@popperjs/core@2.10.2",
+  "_where": "E:\\rzak23.github.io",
   "author": {
     "name": "Federico Zivolo",
     "email": "federico.zivolo@gmail.com"
@@ -152,5 +152,5 @@
   },
   "sideEffects": false,
   "unpkg": "dist/umd/popper.min.js",
-  "version": "2.9.2"
+  "version": "2.10.2"
 }
