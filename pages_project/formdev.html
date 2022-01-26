@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rzak23 | Personal Page</title>
+	<link rel="shortcut icon" href="../img/social/github.webp" type="image/x-icon">
+	<link rel="stylesheet" href="../assets/bootstrap/dist/css/bootstrap.min.css">
+    <!-- FontStyle -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../assets/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+	<link rel="stylesheet" href="../assets/@fortawesome/fontawesome-free/css/solid.min.css">
+	<link rel="stylesheet" href="../assets/@fortawesome/fontawesome-free/css/brands.min.css">
+	<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navigation">
+			<div class="container-fluid">
+                <a class="navbar-brand" href="#">Reza Akbar Hidayat</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto"></ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+		</nav>
+	</header>
+	<br><br>
+	<div class="container">
+        <!-- Margin Top -->
+		<div class="mt-5">
+            <!-- Card -->
+			<!-- <div class="card"> -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 text-center d-none d-sm-block">
+                        <img src="../img/gallery/formdev.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 mb-3 mb-2">
+                        <strong>FormDev</strong>
+                        <small>Release Version 1.8.6 (25-01-2022)</small>
+                        <p>Catatan Rilis</p>
+                        <p>
+                            <ul class="list-group" style="color: black;">
+                                <li class="list-group-item">
+                                    Penambahan Fungsi Encode & Decode
+                                </li>
+                                <li class="list-group-item">
+                                    Penambahan Fungsi QR Code
+                                </li>
+                                <li class="list-group-item">
+                                    Penambahan modul pengecekan versi UUID
+                                </li>
+                                <li class="list-group-item">
+                                    Perbaikan minor
+                                </li>
+                            </ul>
+                        </p>
+                        <div class="mb-3">
+                            <a href="https://github.com/rzak23/FormDev/releases/download/v1.8.6/FormDev.Setup.1.8.6.exe" class="btn btn-success mt-2">
+                                <span>Download</span>
+                                <i class="fab fa-windows"></i>
+                                <span>64-bit</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6 col-md-6 col-12 product-detail">
+                        <h4>FormDev</h4>
+                        <p>Merupakan aplikasi yang berisikan beberapa alat, seperti, Hash, QR Code, Password dan UUID Generator serta Enkripsi dan Dekriptor, Encode dan Decode yang bisa digunakan secara gratis</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#checksum">
+                            <i class="fas fa-key"></i>
+                            <span>Cehcksum</span>
+                        </button>
+                    </div>
+                </div>
+            <!-- </div> -->
+		</div>
+        <!-- Margin Top -->
+		<br>
+		<footer>
+			<nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-navigation">
+				copyright &copy; <span id="copYear"></span>&nbsp;|
+				Design by&nbsp;<strong>rzak23</strong>
+			</nav>
+		</footer>
+	</div>
+	<!-- Modal Checksum -->
+	<div class="modal fade" role="dialog" id="checksum">
+		<div class="modal-dialog modal-dialog-scrollable modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					Data Checksum
+				</div>
+				<div class="modal-body">
+                    <div class="card card-body mt-2">
+						<h5 style="color: black;">
+							FormDev 64-bit
+                        </h5>
+						<table class="table table-bordered">
+							<tr>
+								<td class="text-break">MD5</td>
+								<td class="text-break">fdd465ae2d14d39edc4ccf69aab02ca7</td>
+							</tr>
+							<tr>
+								<td class="text-break">SHA-256</td>
+								<td class="text-break">688efcbcc83532bc0fcdd3624585b2b72dc582c1c48ea1b6c060528661e5a102</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" data-bs-dismiss="modal" class="btn btn-danger">
+						<span>Tutup</span>
+						<i class="fas fa-times"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Checksum -->
+	<script src="../assets/@popperjs/core/dist/umd/popper.min.js"></script>
+	<script src="../assets/jquery/dist/jquery.min.js"></script>
+	<script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script>
+		var date = new Date();
+		const year = date.getFullYear();
+		document.getElementById('copYear').innerHTML = year;
+	</script>
+</body>
+</html>
