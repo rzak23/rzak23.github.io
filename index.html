@@ -14,9 +14,12 @@
 	<link rel="stylesheet" href="assets/@fortawesome/fontawesome-free/css/solid.min.css">
 	<link rel="stylesheet" href="assets/@fortawesome/fontawesome-free/css/brands.min.css">
 	<link rel="stylesheet" href="assets/style.css">
+	<!-- fullview -->
+	<link rel="stylesheet" href="assets/fullview/dist/fullview.min.css">
+	<script src="assets/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
-	<header>
+	<!-- <header>
 		<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-navigation">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">Reza Akbar Hidayat</a>
@@ -41,150 +44,104 @@
 				</div>
 			</div>
 		</nav>
-	</header>
+	</header> -->
 	<br><br>
-	<div class="container">
-		<div id="home">
-			<div class="row mt-5">
-				<div class="col-lg-6 col-md-6 col-12 text-center d-none d-sm-block">
-					<img src="img/dp.webp" class="img-fluid img-thumbnail" width="75%" alt="me">
+	<!-- <div class="container"> -->
+		<div id="fullview">
+			<div class="active">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-12 mx-auto">
+						<div class="text-center">
+							<h1>Welcome to My Page</h1>
+							<p>My name is Reza Akbar Hidayat</p>
+							<p>I'm from Madura Island and work in Denpasar as a Programmer and IT Support</p>
+							<br>
+							Follow me:
+							<div class="mb-3">
+								<a href="https://github.com/rzak23" target="_blank" class="social-icon">
+									<img src="img/social/github.webp" class="img-fluid rounded-circle" alt="github">
+								</a>
+								<a href="https://twitter.com/rzak_23" target="_blank" class="social-icon">
+									<img src="img/social/twitter.webp" class="img-fluid rounded-circle" alt="twitter">
+								</a>
+								<a href="https://www.instagram.com/reza_dev23/" target="_blank" class="social-icon">
+									<img src="img/social/instagram.webp" class="img-fluid rounded-circle" alt="instagram">
+								</a>
+							</div>
+							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzak23&layout=compact&theme=radical&custom_title=My Last Activity&hide=html,css,scss,less" class="img-fluid" alt="">
+							<img src="https://github-readme-streak-stats.herokuapp.com?user=rzak23&theme=tokyonight_duo&background=000000" class="img-fluid" width="80%" alt="">
+						</div>
+					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="text-center">
-						<h1>Welcome to My Page</h1>
-						<p>My name is Reza Akbar Hidayat</p>
-						<p>I'm from Madura Island and work in Denpasar as a Programmer and IT Support</p>
-						<br>
-						Follow me:
-						<div class="mb-3">
-							<a href="https://github.com/rzak23" target="_blank" class="social-icon">
-								<img src="img/social/github.webp" class="img-fluid rounded-circle" alt="github">
-							</a>
-							<a href="https://twitter.com/rzak_23" target="_blank" class="social-icon">
-								<img src="img/social/twitter.webp" class="img-fluid rounded-circle" alt="twitter">
-							</a>
-							<a href="https://www.instagram.com/reza_dev23/" target="_blank" class="social-icon">
-								<img src="img/social/instagram.webp" class="img-fluid rounded-circle" alt="instagram">
+			</div>
+			<div class="mt-5">
+				<h5 class="text-center">My Project</h5>
+				<div class="row mt-4 mb-4">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-12 mb-2 text-center">
+							<img src="img/gallery/pinmu.jpg" width="20%" class="img-fluid" alt="">
+							<p>
+								<strong>PINmu</strong>
+								<br>
+								<small>Engine Version : 4.13.43</small>
+							</p>
+							<a href="https://pinmu.my.id" target="_blank" class="btn btn-info">
+								<i class="fab fa-edge"></i>
+								<span>Visit</span>
 							</a>
 						</div>
-						<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzak23&layout=compact&theme=radical&custom_title=My Last Activity&hide=html,css,scss,less" class="img-fluid" alt="">
-						<img src="https://github-readme-streak-stats.herokuapp.com?user=rzak23&theme=tokyonight_duo&background=000000" class="img-fluid" width="80%" alt="">
+						<div class="col-lg-4 col-md-4 col-12 mb-2 text-center">
+							<img src="img/gallery/countChar.png" width="20%" class="img-fluid" alt="">
+							<p>
+								<strong>CountChar</strong>
+								<br>
+								<small>Version : 1.5.13</small>
+							</p>
+							<a href="pages_project/count-char.html" class="btn btn-info">
+								<i class="fab fa-readme"></i>
+								<span>Detail</span>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-4 col-12 mb-2 mx-auto text-center">
+							<img src="img/gallery/formdev.png" width="20%" class="img-fluid" alt="">
+							<p>
+								<strong>FormDev</strong>
+								<br>
+								<small>Version : 1.10.11</small>
+							</p>
+							<a href="pages_project/formdev.html" class="btn btn-info">
+								<i class="fab fa-readme"></i>
+								<span>Detail</span>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-4 col-12 mb-2 text-center">
+							<img src="img/gallery/clocktime.png" width="20%" class="img-fluid" alt="">
+							<p>
+								<strong>ClockTime</strong>
+								<br>
+								<small>Version : 1.5.13</small>
+							</p>
+							<a href="pages_project/clocktime.html" class="btn btn-info">
+								<i class="fab fa-readme"></i>
+								<span>Detail</span>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-4 col-12 mb-2 text-center">
+							<img src="img/gallery/fscorex.png" width="20%" class="img-fluid" alt="">
+							<p>
+								<strong>FscoreX</strong>
+								<br>
+								<small>Version : 1.0.2</small>
+							</p>
+							<a href="pages_project/fscorex.html" class="btn btn-info">
+								<i class="fab fa-readme"></i>
+								<span>Detail</span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Home -->
-		<!-- Start Project -->
-		<div id="project" class="mt-5 mb-5">
-			<h5 class="text-center">My Project</h5>
-			<div class="row mt-4">
-				<div class="row text">
-					<div class="col-lg-6 col-md-6 col-12 mb-2 text-center">
-						<img src="img/gallery/pinmu.jpg" width="30%" class="img-fluid" alt="">
-						<p>
-							<strong>PINmu</strong>
-							<br>
-							<small>Engine Version : 4.13.43</small>
-						</p>
-						<a href="https://pinmu.my.id" target="_blank" class="btn btn-info">
-							<i class="fab fa-edge"></i>
-							<span>Visit</span>
-						</a>
-					</div>
-					<div class="col-lg-6 col-md-6 col-12 mb-2 text-center">
-						<img src="img/gallery/countChar.png" width="30%" class="img-fluid" alt="">
-						<p>
-							<strong>CountChar</strong>
-							<br>
-							<small>Version : 1.5.13</small>
-						</p>
-						<a href="pages_project/count-char.html" class="btn btn-info">
-							<i class="fab fa-readme"></i>
-							<span>Detail</span>
-						</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-12 mb-2 mx-auto text-center">
-						<img src="img/gallery/formdev.png" width="30%" class="img-fluid" alt="">
-						<p>
-							<strong>FormDev</strong>
-							<br>
-							<small>Version : 1.10.11</small>
-						</p>
-						<a href="pages_project/formdev.html" class="btn btn-info">
-							<i class="fab fa-readme"></i>
-							<span>Detail</span>
-						</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-12 mb-2 text-center">
-						<img src="img/gallery/clocktime.png" width="30%" class="img-fluid" alt="">
-						<p>
-							<strong>ClockTime</strong>
-							<br>
-							<small>Version : 1.5.13</small>
-						</p>
-						<a href="pages_project/clocktime.html" class="btn btn-info">
-							<i class="fab fa-readme"></i>
-							<span>Detail</span>
-						</a>
-					</div>
-					<div class="col-lg-6 col-md-6 col-12 mb-2 text-center">
-						<img src="img/gallery/fscorex.png" width="30%" class="img-fluid" alt="">
-						<p>
-							<strong>FscoreX</strong>
-							<br>
-							<small>Version : 1.0.2</small>
-						</p>
-						<a href="pages_project/fscorex.html" class="btn btn-info">
-							<i class="fab fa-readme"></i>
-							<span>Detail</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Project -->
-		<!-- Start Tools -->
-		<div id="tools" class="mt-5 mb-5">
-			<div class="row">
-				<div class="col-12 text-center">
-					<p>
-						<h4>Tools and Framework Uses</h4>
-					</p>
-				</div>
-			</div>
-			<div class="row text-center mt-3">
-				<div class="col-md-3 col-12">
-					<a href="http://codeigniter.com/" target="_blank">
-						<img src="img/tools/codeigniter.png" width="50%" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-12">
-					<a href="https://electronjs.org" target="_blank">
-						<img src="img/tools/electron.png" width="50%" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-12">
-					<a href="https://developer.android.com/studio" target="_blank">
-						<img src="img/tools/androids.png" width="50%" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-12">
-					<a href="https://code.visualstudio.com/" target="_blank">
-						<img src="img/tools/visualscode.png" width="50%" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-12">
-					<a href="https://getbootstrap.com/" target="_blank">
-						<img src="img/tools/bootstrap.png" width="50%" alt="">
-					</a>
-				</div>
-			</div>
-		</div>
-		<!-- End Tools -->
 		<br>
 		<footer>
 			<nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-navigation">
@@ -192,155 +149,30 @@
 				Design by&nbsp;<strong>rzak23</strong>
 			</nav>
 		</footer>
-	</div>
-	<!-- Modal Checksum -->
-	<div class="modal fade" role="dialog" id="checksum">
-		<div class="modal-dialog modal-dialog-scrollable modal-xl">
-			<div class="modal-content">
-				<div class="modal-header">
-					Data Checksum
-				</div>
-				<div class="modal-body">
-					<div class="card card-body">
-						<a href="#ende" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="ende">
-							Ende Hash File
-						</a>
-						<div class="collapse" id="ende">
-							<table class="table table-bordered">
-								<tr>
-									<td class="text-break">MD5 (32-bit)</td>
-									<td class="text-break">1a250f14576df217c5d4da002276e11c</td>
-								</tr>
-								<tr>
-									<td class="text-break">MD5 (64-bit)</td>
-									<td class="text-break">cd43d9e5cb24cddbb8bc08d7ef6fad2b</td>
-								</tr>
-								<tr>
-									<td class="text-break">MD5 (ARM-64)</td>
-									<td class="text-break">98a58cde225a7b2088aaf4dc15990a43</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2 (32-bit)</td>
-									<td class="text-break">fd563ff55aa31b7448cced53fc0f0e804a3b76c8739eb849c6ffad903c5938f0</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2 (64-bit)</td>
-									<td class="text-break">a59a449e95e64079db5b5b40cc4ec3d131fcf941d945a3b66060b2ecb3869347</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2 (ARM-64)</td>
-									<td class="text-break">771d9471d597d03702267eb5e57baa24174bc9b5dcf751836405ee555f0eff53</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<div class="card card-body">
-						<a href="#count-char" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="count-char">
-							CountChar Hash File
-						</a>
-						<div class="collapse" id="count-char">
-							<table class="table table-bordered">
-								<tr>
-									<td class="text-break">MD5 (32-bit)</td>
-									<td class="text-break">a1dca3a7b913aac351037c7e24ddde7e</td>
-								</tr>
-								<tr>
-									<td class="text-break">MD5 (64-bit)</td>
-									<td class="text-break">6d048ed232b75f779c92bf08f0e3274e</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2 (32-bit)</td>
-									<td class="text-break">9f1200aa8947c728f45b712dd2c2420ac212482bc6f352afdacdda9299543121</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2 (64-bit)</td>
-									<td class="text-break">be3a4dc6a358ff4aaa313cf8c24f2ce72b1b9bb7688d6cc8d3ae93a4d543ae26</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<div class="card card-body">
-						<a href="#key-generator" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="key-generator">
-							Key Generator Hash File
-						</a>
-						<div class="collapse" id="key-generator">
-							<table class="table table-bordered">
-								<tr>
-									<td class="text-break">MD5</td>
-									<td class="text-break">7f0e2e4753c9b8826a1e31eae0b64ecb</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2</td>
-									<td class="text-break">37b42ff05706c588c4558e0795751875a3e4cd125cb976cf64b7150dd37149c2</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<div class="card card-body">
-						<a href="#clocktime" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="clocktime">
-							ClockTime Hash File
-						</a>
-						<div class="collapse" id="clocktime">
-							<table class="table table-bordered">
-								<tr>
-									<td class="text-break">MD5</td>
-									<td class="text-break">fb61f65570402b8e11dc2300d8f430cb</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2</td>
-									<td class="text-break">72a14db396d22cda6179c1ed30ef4a1e80eb1fd85eb941187a41be47958d7be4</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<div class="card card-body">
-						<a href="#fscorex" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="clocktime">
-							FScoreX Hash File
-						</a>
-						<div class="collapse" id="fscorex">
-							<table class="table table-bordered">
-								<tr>
-									<td class="text-break">MD5 (32-bit)</td>
-									<td class="text-break">357ddcee013104e4d16d43bff270e934</td>
-									<td class="text-break">MD5 (64-bit)</td>
-									<td class="text-break">45fa3bbf88b58b17b576cfad3335da2d</td>
-								</tr>
-								<tr>
-									<td class="text-break">SHA-2 (32-bit)</td>
-									<td class="text-break">fb08a34edfe8dc395831dbc363bd9fcd0703bcd7a529ade73860da2b38eb9881</td>
-									<td class="text-break">SHA-2 (64-bit)</td>
-									<td class="text-break">7ffcfe8f00742a364201bbf253d3e219bd006cacf3068ff00210a2d8ad384812</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" data-bs-dismiss="modal" class="btn btn-danger">
-						<span>Tutup</span>
-						<i class="fas fa-times"></i>
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Modal Checksum -->
+	<!-- </div> -->
 	<script src="assets/@popperjs/core/dist/umd/popper.min.js"></script>
-	<script src="assets/jquery/dist/jquery.min.js"></script>
 	<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets/fullview/dist/fullview.min.js"></script>
 	<script>
 		var date = new Date();
 		const year = date.getFullYear();
 		document.getElementById('copYear').innerHTML = year;
 
-		$('.scroll').on('click',function(e){
-			var href = $(this).attr('href');
-			var element = $(href);
-			$('html, body').animate({
-				scrollTop: element.offset().top
+		$(document).ready(function() {
+			$('#fullview').fullView({
+				backToTop: true,
+				easing: 'swing'
 			});
-			e.preventDefault();
-		})
+		});
+
+		// $('.scroll').on('click',function(e){
+		// 	var href = $(this).attr('href');
+		// 	var element = $(href);
+		// 	$('html, body').animate({
+		// 		scrollTop: element.offset().top
+		// 	});
+		// 	e.preventDefault();
+		// })
 	</script>
 </body>
 </html>
