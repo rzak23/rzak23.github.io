@@ -21,6 +21,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
+    "fullview": "^1.1.2",
     "jquery": "^3.6.0"
   }
 }
